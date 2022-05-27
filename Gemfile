@@ -23,9 +23,9 @@ gem "dotenv-rails"
 group :development, :test do
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
   gem "capistrano", "~> 3.16", require: false
+  gem "capistrano3-puma", require: false
   gem "capistrano-rails", "~> 1.6", require: false
   gem "capistrano-rbenv", "~> 2.2", require: false
-  gem "capistrano3-puma", require: false
   gem 'sqlite3', '1.4.1'
 end
 
